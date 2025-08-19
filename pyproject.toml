@@ -28,3 +28,6 @@ attr = "patient_finder.__version__"
 [tool.setuptools.packages.find]
 where = [ "src",]
 namespaces = false
+
+[tool.kedro_telemetry]
+project_id = "ebca5809137b47a59d0710191e9b83d0"
