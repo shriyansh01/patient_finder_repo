@@ -1,0 +1,26 @@
+{
+  "logistic_regression": [
+    "data/08_reporting/shap_plots/shap_summary_logistic_regression.png",
+    "data/08_reporting/shap_plots/shap_bar_logistic_regression.png",
+    "data/08_reporting/shap_plots/shap_dependence_logistic_regression.png",
+    "data/08_reporting/shap_plots/shap_force_logistic_regression.html"
+  ],
+  "decision_tree": [
+    "Failed: x and y must be the same size"
+  ],
+  "random_forest": [
+    "Failed: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 2 and the array at index 1 has size 20"
+  ],
+  "lightgbm": [
+    "data/08_reporting/shap_plots/shap_summary_lightgbm.png",
+    "data/08_reporting/shap_plots/shap_bar_lightgbm.png",
+    "data/08_reporting/shap_plots/shap_dependence_lightgbm.png",
+    "data/08_reporting/shap_plots/shap_force_lightgbm.html"
+  ],
+  "xgboost": [
+    "data/08_reporting/shap_plots/shap_summary_xgboost.png",
+    "data/08_reporting/shap_plots/shap_bar_xgboost.png",
+    "data/08_reporting/shap_plots/shap_dependence_xgboost.png",
+    "data/08_reporting/shap_plots/shap_force_xgboost.html"
+  ]
+}

@@ -1,0 +1,86 @@
+positive_cohort:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/positive_cohort.csv
+
+negative_cohort:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/negative_cohort.csv
+
+pivot_table:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/pivot_table.csv
+
+sequence_table:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/sequence_table.csv
+
+# Save a dict of model objects (sklearn / lgbm / xgb) via pickle
+# models:
+#   type: pickle.PickleDataset
+#   filepath: data/06_models/models.pkl
+models:
+  type: pickle.PickleDataset
+  filepath: data/06_models/models.pkl
+
+# Save nested metrics as JSON
+metrics:
+  type: json.JSONDataset
+  filepath: data/08_reporting/metrics.json
+
+predictions:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/predictions.csv
+
+
+finetuned_models:
+  type: pickle.PickleDataset
+  filepath: data/06_models/finetuned_models.pkl
+
+finetuned_predictions:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/finetuned_predictions.csv
+
+finetuned_metrics:
+  type: json.JSONDataset
+  filepath: data/08_reporting/finetuned_metrics.json
+
+pycaret_models:
+  type: pickle.PickleDataset
+  filepath: data/06_models/pycaret_models.pkl
+
+pycaret_predictions:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/pycaret_predictions.csv
+
+pycaret_metrics:
+  type: json.JSONDataset
+  filepath: data/08_reporting/pycaret_metrics.json
+
+shap_explanations:
+  type: json.JSONDataset
+  filepath: data/08_reporting/shap_explanations.json
+
+
+# code_variance_path = "patient-finder/data/02_intermediate/code_variance.csv"
+# important_features_path = "patient-finder/data/02_intermediate/important_features.txt"
+# metrics_path = "patient-finder/data/02_intermediate/metrics.json"
+# finetuned_metrics_path = "patient-finder/data/02_intermediate/finetuning_metrics.json"
+# shap_plots_dir = "patient-finder/data/02_intermediate/shap_plots"
+
+
+
+code_variance_table:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/code_variance.csv
+# important feature should open text file
+# important_features:
+#   type: text.TextFileDataset
+#   filepath: data/02_intermediate/important_features.txt
+
+# shap_plot_dir:
+#   type: directory.DirectoryDataset
+#   filepath: data/02_intermediate/shap_plots
+
+business_report_json:
+  type: json.JSONDataset
+  filepath: data/08_reporting/business_report.json
