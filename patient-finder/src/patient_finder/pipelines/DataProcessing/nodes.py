@@ -79,6 +79,10 @@ def data_processing_pipeline(positive_class, negative_class,n_important_features
 
     code_counts['variance'] = np.var([code_counts['positive_patient_relative'], code_counts['negative_patient_relative']], axis=0)
     important_features = code_counts.sort_values(by='variance', ascending=False).head(n_important_features).index.tolist()
+    code_counts.to_csv("data/02_intermediate/code_variance.csv", index=True)
+    # save important features as a text file
+    with open("data/02_intermediate/important_features.txt", "w") as f:
+        f.writelines("\n".join(important_features))
     claims_table = pd.concat([positive_class, negative_class], ignore_index=True)
 
     pivot_df = create_patient_pivot(claims_table, important_features)

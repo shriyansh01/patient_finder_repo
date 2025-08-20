@@ -61,6 +61,8 @@ def finetuning(
             "f1": f1_score(y_train, y_pred),
             "roc_auc": roc_auc_score(y_train, y_prob),
         }
-
+    import json
+    with open("data/02_intermediate/finetuning_metrics.json", "w") as f:
+        json.dump(metrics, f)
     predictions = pd.DataFrame(preds)
     return tuned_models, predictions, metrics

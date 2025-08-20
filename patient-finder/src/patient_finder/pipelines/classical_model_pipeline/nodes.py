@@ -73,6 +73,9 @@ def train_classical_models(
             "f1": f1_score(y_test, y_pred),
             "roc_auc": roc_auc_score(y_test, y_prob),
         }
-
+    # save the metrics as json files inside patient-finder\data\02_intermediate
+    import json
+    with open("data/02_intermediate/metrics.json", "w") as f:
+        json.dump(metrics, f)
     predictions = pd.DataFrame(preds)
     return models, predictions, metrics
