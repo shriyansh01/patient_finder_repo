@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/SatyamKumar/OneDrive%20-%20Chryselys%20Services%20Private%20Limited/Desktop/Patient%20FInder%20ACCELERATOR/patient-finder/mlruns/661521808217219286/2bca3e15c7064138b6f6c2ea7312924b/artifacts
+end_time: 1755748789084
+entry_point_name: ''
+experiment_id: '661521808217219286'
+lifecycle_stage: active
+run_id: 2bca3e15c7064138b6f6c2ea7312924b
+run_name: decision_tree
+run_uuid: 2bca3e15c7064138b6f6c2ea7312924b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755748778277
+status: 3
+tags: []
+user_id: SatyamKumar

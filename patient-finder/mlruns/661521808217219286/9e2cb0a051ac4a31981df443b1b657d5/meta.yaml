@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/SatyamKumar/OneDrive%20-%20Chryselys%20Services%20Private%20Limited/Desktop/Patient%20FInder%20ACCELERATOR/patient-finder/mlruns/661521808217219286/9e2cb0a051ac4a31981df443b1b657d5/artifacts
+end_time: 1755746428419
+entry_point_name: ''
+experiment_id: '661521808217219286'
+lifecycle_stage: active
+run_id: 9e2cb0a051ac4a31981df443b1b657d5
+run_name: logistic_regression
+run_uuid: 9e2cb0a051ac4a31981df443b1b657d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755746394010
+status: 3
+tags: []
+user_id: SatyamKumar

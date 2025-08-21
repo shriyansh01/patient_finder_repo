@@ -27,7 +27,8 @@ from patient_finder.pipelines.DataProcessing import pipeline as dp
 from patient_finder.pipelines.explainAI import pipeline as xai
 from patient_finder.pipelines.finetuning import pipeline as ft
 from patient_finder.pipelines.reportingPipeline import pipeline as rp
-
+from patient_finder.pipelines.DataIngestion import pipeline as di
+from patient_finder.pipelines.edaPipeline import pipeline as eda
 
 def register_pipelines() -> Dict[str, Pipeline]:
     """Register the project's pipelines.
@@ -36,12 +37,14 @@ def register_pipelines() -> Dict[str, Pipeline]:
         A mapping from pipeline names to ``Pipeline`` objects.
     """
     pipelines = {
+        "DataIngestion": di.create_pipeline(),
+        "edaPipeline" : eda.create_pipeline(),
+        "DataProcessing": dp.create_pipeline(),
         # "auto_classical": acp.create_pipeline(),
-        "classical_model": cmp.create_pipeline(),
-        "data_processing": dp.create_pipeline(),
-        "explain_ai": xai.create_pipeline(),
+        "classical_model_pipeline": cmp.create_pipeline(),
         "finetuning": ft.create_pipeline(),
-        "reporting": rp.create_pipeline(),
+        "explainAI": xai.create_pipeline(),
+        "reportingPipeline": rp.create_pipeline(),
     }
 
     pipelines["__default__"] = sum(pipelines.values(), Pipeline([]))
