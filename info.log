@@ -1,0 +1,564 @@
+2025-08-19 15:19:49,515 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-19 15:19:58,931 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-19 15:20:28,792 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-19 15:20:30,900 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-19 15:55:41,680 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-19 15:55:45,218 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-19 15:56:48,529 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-19 15:56:49,112 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-19 15:57:40,505 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-19 15:57:41,070 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-19 15:58:05,701 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 07:59:44,818 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:00:39,296 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:00:46,890 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:01:00,277 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:01:02,185 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 08:01:02,212 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.CSVDataSet'.
+  warnings.warn(
+
+2025-08-20 08:04:52,168 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:04:53,967 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:04:58,498 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:05:00,365 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 08:05:00,386 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.CSVDataSet'.
+  warnings.warn(
+
+2025-08-20 08:06:13,153 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:06:14,370 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:06:17,933 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:06:20,029 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 08:06:20,029 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.CSVDataSet'.
+  warnings.warn(
+
+2025-08-20 08:07:52,304 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:07:53,473 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:07:56,581 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:07:58,206 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 08:11:21,574 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:11:23,378 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:11:27,130 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:11:28,872 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 08:11:39,292 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 08:11:39,301 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]positive_cohort[/dark_orange] (CSVDataset)...
+2025-08-20 08:11:39,380 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]negative_cohort[/dark_orange] (CSVDataset)...
+2025-08-20 08:11:39,406 - kedro.pipeline.node - INFO - Running node: data_processing_node: data_processing_pipeline([positive_cohort;negative_cohort]) -> [pivot_table;sequence_table]
+2025-08-20 08:11:39,414 - kedro.pipeline.node - ERROR - Node data_processing_node: data_processing_pipeline([positive_cohort;negative_cohort]) -> [pivot_table;sequence_table] failed with error: 
+unsupported operand type(s) for -: 'str' and 'str'
+2025-08-20 08:11:39,420 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-08-20 08:14:39,705 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:14:40,949 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:14:43,914 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:14:45,838 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 08:14:47,190 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 08:14:47,190 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]positive_cohort[/dark_orange] (CSVDataset)...
+2025-08-20 08:14:47,204 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]negative_cohort[/dark_orange] (CSVDataset)...
+2025-08-20 08:14:47,224 - kedro.pipeline.node - INFO - Running node: data_processing_node: data_processing_pipeline([positive_cohort;negative_cohort]) -> [pivot_table;sequence_table]
+2025-08-20 08:14:48,878 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 08:14:48,926 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]sequence_table[/dark_orange] (CSVDataset)...
+2025-08-20 08:14:48,934 - kedro.runner.sequential_runner - INFO - Completed node: data_processing_node
+2025-08-20 08:14:48,934 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-08-20 08:14:48,939 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 1.7 sec.
+2025-08-20 08:22:01,142 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:22:06,137 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:22:24,354 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:22:26,377 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 08:22:44,966 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 08:22:44,966 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]positive_cohort[/dark_orange] (CSVDataset)...
+2025-08-20 08:22:45,057 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]negative_cohort[/dark_orange] (CSVDataset)...
+2025-08-20 08:22:45,078 - kedro.pipeline.node - INFO - Running node: data_processing_node: data_processing_pipeline([positive_cohort;negative_cohort]) -> [pivot_table;sequence_table]
+2025-08-20 08:22:47,876 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 08:22:47,906 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]sequence_table[/dark_orange] (CSVDataset)...
+2025-08-20 08:22:47,914 - kedro.runner.sequential_runner - INFO - Completed node: data_processing_node
+2025-08-20 08:22:47,914 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-08-20 08:22:47,920 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 3.0 sec.
+2025-08-20 08:25:31,928 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:25:33,976 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:25:55,288 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:25:58,395 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:38:17,442 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:38:26,179 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:38:26,507 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.classical_model_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\classical_model_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\classical_model_pipeline\pipeline.py", line 11
+    nodes=[
+    ^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+  warnings.warn(
+
+2025-08-20 08:38:40,037 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:39:35,264 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:39:36,793 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:39:37,030 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.classical_model_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\classical_model_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\classical_model_pipeline\pipeline.py", line 11
+    nodes=[
+    ^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+  warnings.warn(
+
+2025-08-20 08:39:38,603 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:45:14,608 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:45:16,039 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:45:16,210 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:46:34,469 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:46:35,957 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:46:36,207 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.classical_model_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\classical_model_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\classical_model_pipeline\pipeline.py", line 11
+    nodes=[
+    ^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+  warnings.warn(
+
+2025-08-20 08:46:38,212 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:46:45,251 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:46:46,875 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:46:47,060 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.classical_model_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\classical_model_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\classical_model_pipeline\pipeline.py", line 11
+    nodes=[
+    ^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+  warnings.warn(
+
+2025-08-20 08:46:48,712 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:49:44,082 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:49:55,082 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:51:38,071 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:51:39,637 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:52:24,836 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:54:52,090 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:54:53,420 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:54:59,109 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:56:17,798 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:56:18,978 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:56:24,843 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:56:26,386 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 08:57:41,770 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 08:57:43,006 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 08:57:48,858 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 08:57:50,739 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:02:41,325 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:02:42,617 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:02:48,737 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:02:50,370 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:03:40,473 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:03:41,780 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:03:47,544 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:03:49,321 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:03:49,330 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.JSONDataSet'.
+  warnings.warn(
+
+2025-08-20 09:04:58,736 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:04:59,908 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:05:05,445 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:05:07,365 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:17:18,682 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:17:20,604 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:17:27,998 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:17:30,143 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:17:30,146 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.JSONDataSet'.
+  warnings.warn(
+
+2025-08-20 09:18:23,247 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:18:24,373 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:18:29,912 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:18:32,515 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:18:33,874 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'json.JSONDataSet'.
+  warnings.warn(
+
+2025-08-20 09:22:25,943 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:22:32,737 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:23:14,804 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:23:17,119 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:23:32,647 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 09:23:32,647 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 09:23:32,727 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:test_size[/dark_orange] (MemoryDataset)...
+2025-08-20 09:23:32,727 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-08-20 09:23:32,727 - kedro.pipeline.node - INFO - Running node: train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics]
+2025-08-20 09:23:32,741 - kedro.pipeline.node - ERROR - Node train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics] failed with error: 
+The 'stratify' parameter of train_test_split must be an array-like or None. Got 0.2 instead.
+2025-08-20 09:23:32,745 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-08-20 09:26:12,895 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:26:13,791 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:26:18,536 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:26:20,157 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:26:21,287 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 09:26:21,287 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 09:26:21,287 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:test_size[/dark_orange] (MemoryDataset)...
+2025-08-20 09:26:21,304 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-08-20 09:26:21,308 - kedro.pipeline.node - INFO - Running node: train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics]
+2025-08-20 09:26:21,331 - kedro.pipeline.node - ERROR - Node train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics] failed with error: 
+could not convert string to float: 'PT0069'
+2025-08-20 09:26:21,334 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-08-20 09:27:25,597 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:27:26,521 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:27:31,109 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:27:32,769 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:27:33,889 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 09:27:33,889 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 09:27:33,904 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:test_size[/dark_orange] (MemoryDataset)...
+2025-08-20 09:27:33,904 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-08-20 09:27:33,917 - kedro.pipeline.node - INFO - Running node: train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics]
+2025-08-20 09:27:33,932 - kedro.pipeline.node - ERROR - Node train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics] failed with error: 
+Input X contains NaN.
+LogisticRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+2025-08-20 09:27:33,937 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-08-20 09:28:09,823 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:28:10,721 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:28:15,378 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:28:19,324 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 09:28:20,411 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 09:28:20,413 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 09:28:20,420 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:test_size[/dark_orange] (MemoryDataset)...
+2025-08-20 09:28:20,428 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-08-20 09:28:20,431 - kedro.pipeline.node - INFO - Running node: train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics]
+2025-08-20 09:28:20,505 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-08-20 09:28:21,003 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [09:28:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+2025-08-20 09:28:21,059 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]models[/dark_orange] (PickleDataset)...
+2025-08-20 09:28:21,089 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]predictions[/dark_orange] (CSVDataset)...
+2025-08-20 09:28:21,104 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]metrics[/dark_orange] (JSONDataset)...
+2025-08-20 09:28:21,118 - kedro.runner.sequential_runner - INFO - Completed node: train_classical_model_node
+2025-08-20 09:28:21,121 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-08-20 09:28:21,123 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 0.7 sec.
+2025-08-20 09:32:21,873 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:32:23,595 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:44:34,865 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:44:41,259 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:45:17,583 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 6, in <module>
+    from altair import Dict
+ModuleNotFoundError: No module named 'altair'
+
+  warnings.warn(
+
+2025-08-20 09:45:17,636 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:48:30,343 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:48:31,990 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:48:40,030 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 6, in <module>
+    from altair import Dict
+ModuleNotFoundError: No module named 'altair'
+
+  warnings.warn(
+
+2025-08-20 09:48:40,049 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:48:59,884 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:49:00,870 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:49:05,900 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 6, in <module>
+    from altair import Dict
+ModuleNotFoundError: No module named 'altair'
+
+  warnings.warn(
+
+2025-08-20 09:49:05,913 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:50:39,684 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:50:40,607 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:50:45,257 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 6, in <module>
+    from altair import Dict
+ModuleNotFoundError: No module named 'altair'
+
+  warnings.warn(
+
+2025-08-20 09:50:45,257 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:51:48,637 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:51:49,568 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 09:51:54,147 - py.warnings - WARNING - C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 6, in <module>
+    from altair import Dict
+ModuleNotFoundError: No module named 'altair'
+
+  warnings.warn(
+
+2025-08-20 09:51:54,165 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 09:54:37,517 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 09:54:39,647 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 10:08:46,537 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 10:08:54,707 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 10:09:33,658 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 10:12:45,006 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 10:12:46,760 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 10:12:54,996 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 10:19:16,439 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 10:19:17,482 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 10:19:22,680 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 10:31:17,331 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 10:31:18,870 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 10:31:31,068 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 10:35:14,924 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 10:35:16,413 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 10:35:26,118 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 10:35:40,932 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 10:35:40,932 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]positive_cohort[/dark_orange] (CSVDataset)...
+2025-08-20 10:35:41,008 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]negative_cohort[/dark_orange] (CSVDataset)...
+2025-08-20 10:35:41,025 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:n_important_features[/dark_orange] (MemoryDataset)...
+2025-08-20 10:35:41,031 - kedro.pipeline.node - INFO - Running node: data_processing_node: data_processing_pipeline([positive_cohort;negative_cohort;params:n_important_features]) -> [pivot_table;sequence_table]
+2025-08-20 10:35:42,208 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 10:35:42,229 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]sequence_table[/dark_orange] (CSVDataset)...
+2025-08-20 10:35:42,234 - kedro.runner.sequential_runner - INFO - Completed node: data_processing_node
+2025-08-20 10:35:42,236 - kedro.runner.sequential_runner - INFO - Completed 1 out of 2 tasks
+2025-08-20 10:35:42,237 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 10:35:42,260 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:test_size[/dark_orange] (MemoryDataset)...
+2025-08-20 10:35:42,260 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-08-20 10:35:42,260 - kedro.pipeline.node - INFO - Running node: train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics]
+2025-08-20 10:35:42,960 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]models[/dark_orange] (PickleDataset)...
+2025-08-20 10:35:42,985 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]predictions[/dark_orange] (CSVDataset)...
+2025-08-20 10:35:42,992 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]metrics[/dark_orange] (JSONDataset)...
+2025-08-20 10:35:42,999 - kedro.runner.sequential_runner - INFO - Completed node: train_classical_model_node
+2025-08-20 10:35:43,000 - kedro.runner.sequential_runner - INFO - Completed 2 out of 2 tasks
+2025-08-20 10:35:43,002 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 2.1 sec.
+2025-08-20 10:46:09,660 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 10:46:16,288 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 10:46:56,606 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 10:46:58,209 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 10:47:08,790 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 10:47:08,790 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 10:47:08,858 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:test_size[/dark_orange] (MemoryDataset)...
+2025-08-20 10:47:08,858 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-08-20 10:47:08,858 - kedro.pipeline.node - INFO - Running node: train_classical_model_node: train_classical_models([pivot_table;params:test_size;params:random_state]) -> [models;predictions;metrics]
+2025-08-20 10:47:09,536 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]models[/dark_orange] (PickleDataset)...
+2025-08-20 10:47:09,557 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]predictions[/dark_orange] (CSVDataset)...
+2025-08-20 10:47:09,579 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]metrics[/dark_orange] (JSONDataset)...
+2025-08-20 10:47:09,589 - kedro.runner.sequential_runner - INFO - Completed node: train_classical_model_node
+2025-08-20 10:47:09,591 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-08-20 10:47:09,593 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 0.8 sec.
+2025-08-20 10:47:44,783 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 10:47:46,155 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 10:47:54,537 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 11:08:37,282 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 11:08:46,266 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 11:09:34,189 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 11:20:30,847 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 11:20:32,198 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 11:20:40,994 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 11:20:43,031 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 11:21:24,435 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 11:21:26,160 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 11:21:37,201 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 11:21:38,816 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 11:21:42,767 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 11:21:42,767 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]models[/dark_orange] (PickleDataset)...
+2025-08-20 11:21:42,790 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 11:21:42,868 - kedro.pipeline.node - INFO - Running node: finetuning_node: finetuning([models;pivot_table]) -> [finetuned_models;finetuned_predictions;finetuned_metrics]
+2025-08-20 11:22:20,284 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_models[/dark_orange] (PickleDataset)...
+2025-08-20 11:22:20,344 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_predictions[/dark_orange] (CSVDataset)...
+2025-08-20 11:22:20,380 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_metrics[/dark_orange] (JSONDataset)...
+2025-08-20 11:22:20,398 - kedro.runner.sequential_runner - INFO - Completed node: finetuning_node
+2025-08-20 11:22:20,398 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-08-20 11:22:20,406 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 37.6 sec.
+2025-08-20 11:29:26,300 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 11:29:28,206 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 11:29:40,571 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 11:29:44,715 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 11:29:50,290 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 11:29:50,290 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]models[/dark_orange] (PickleDataset)...
+2025-08-20 11:29:50,354 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 11:29:50,402 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:finetuning[/dark_orange] (MemoryDataset)...
+2025-08-20 11:29:50,402 - kedro.pipeline.node - INFO - Running node: finetuning_node: finetuning([models;pivot_table;params:finetuning]) -> [finetuned_models;finetuned_predictions;finetuned_metrics]
+2025-08-20 11:30:25,172 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_models[/dark_orange] (PickleDataset)...
+2025-08-20 11:30:25,218 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_predictions[/dark_orange] (CSVDataset)...
+2025-08-20 11:30:25,242 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_metrics[/dark_orange] (JSONDataset)...
+2025-08-20 11:30:25,253 - kedro.runner.sequential_runner - INFO - Completed node: finetuning_node
+2025-08-20 11:30:25,256 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-08-20 11:30:25,259 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 35.0 sec.
+2025-08-20 11:31:47,774 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 11:31:49,043 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 11:31:55,361 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 11:31:56,852 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 11:32:00,843 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 11:32:00,843 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]models[/dark_orange] (PickleDataset)...
+2025-08-20 11:32:00,865 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 11:32:00,882 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:finetuning[/dark_orange] (MemoryDataset)...
+2025-08-20 11:32:00,894 - kedro.pipeline.node - INFO - Running node: finetuning_node: finetuning([models;pivot_table;params:finetuning]) -> [finetuned_models;finetuned_predictions;finetuned_metrics]
+2025-08-20 11:32:33,520 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_models[/dark_orange] (PickleDataset)...
+2025-08-20 11:32:33,577 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_predictions[/dark_orange] (CSVDataset)...
+2025-08-20 11:32:33,588 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]finetuned_metrics[/dark_orange] (JSONDataset)...
+2025-08-20 11:32:33,606 - kedro.runner.sequential_runner - INFO - Completed node: finetuning_node
+2025-08-20 11:32:33,609 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-08-20 11:32:33,611 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 32.8 sec.
+2025-08-20 11:35:07,271 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 11:35:08,765 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 11:35:16,482 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 11:38:08,802 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-08-20 11:38:10,311 - kedro.framework.session.session - INFO - Kedro project patient-finder
+2025-08-20 11:38:20,295 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-08-20 11:38:22,315 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-08-20 11:38:28,611 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-08-20 11:38:28,627 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]pivot_table[/dark_orange] (CSVDataset)...
+2025-08-20 11:38:28,672 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:classical_training[/dark_orange] (MemoryDataset)...
+2025-08-20 11:38:28,672 - kedro.pipeline.node - INFO - Running node: train_classical_model_node: train_classical_models([pivot_table;params:classical_training]) -> [models;predictions;metrics]
+2025-08-20 11:38:29,597 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]models[/dark_orange] (PickleDataset)...
+2025-08-20 11:38:29,640 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]predictions[/dark_orange] (CSVDataset)...
+2025-08-20 11:38:29,649 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]metrics[/dark_orange] (JSONDataset)...
+2025-08-20 11:38:29,657 - kedro.runner.sequential_runner - INFO - Completed node: train_classical_model_node
+2025-08-20 11:38:29,657 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-08-20 11:38:29,661 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 1.0 sec.

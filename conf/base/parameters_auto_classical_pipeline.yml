@@ -1,0 +1,7 @@
+# This is a boilerplate parameters config generated for pipeline 'auto_classical_pipeline'
+# using Kedro 1.0.0.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/1.0.0/configuration/parameters.html
+auto_test_size: 0.2
+auto_random_state: 42

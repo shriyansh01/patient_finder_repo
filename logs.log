@@ -1,0 +1,640 @@
+2025-08-20 10:09:06,086:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 10:09:33,636:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 6, in <module>
+    from altair import Dict
+ModuleNotFoundError: No module named 'altair'
+
+  warnings.warn(
+
+2025-08-20 10:12:49,162:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 10:12:54,821:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 6, in <module>
+    from altair import Dict
+ModuleNotFoundError: No module named 'altair'
+
+  warnings.warn(
+
+2025-08-20 10:19:19,059:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 10:19:22,678:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 6, in <module>
+    from altair import Dict
+ModuleNotFoundError: No module named 'altair'
+
+  warnings.warn(
+
+2025-08-20 10:31:20,923:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 10:31:31,065:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 10, in <module>
+    def finetuning(models: Dict[str, object], input_data: pd.DataFrame) -> Dict[str, object]:
+                           ~~~~^^^^^^^^^^^^^
+TypeError: type 'Dict' is not subscriptable
+
+  warnings.warn(
+
+2025-08-20 10:35:18,731:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 10:35:26,023:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 10, in <module>
+    def finetuning(models: Dict[str, object], input_data: pd.DataFrame) -> Dict[str, object]:
+                           ~~~~^^^^^^^^^^^^^
+TypeError: type 'Dict' is not subscriptable
+
+  warnings.warn(
+
+2025-08-20 10:35:42,372:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-08-20 10:35:42,882:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [10:35:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+2025-08-20 10:46:26,978:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 10:46:56,436:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 10, in <module>
+    def finetuning(models: Dict[str, object], input_data: pd.DataFrame) -> Dict[str, object]:
+                           ~~~~^^^^^^^^^^^^^
+TypeError: type 'Dict' is not subscriptable
+
+  warnings.warn(
+
+2025-08-20 10:47:08,965:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-08-20 10:47:09,472:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [10:47:09] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+2025-08-20 10:47:48,100:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 10:47:54,497:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 10, in <module>
+    def finetuning(models: Dict[str, object], input_data: pd.DataFrame) -> Dict[str, object]:
+                           ~~~~^^^^^^^^^^^^^
+TypeError: type 'Dict' is not subscriptable
+
+  warnings.warn(
+
+2025-08-20 11:08:59,672:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 11:09:33,962:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.finetuning' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\pipeline.py", line 7, in <module>
+    from .nodes import finetuning
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\finetuning\nodes.py", line 10, in <module>
+    def finetuning(models: Dict[str, object], input_data: pd.DataFrame) -> Dict[str, object]:
+                           ~~~~^^^^^^^^^^^^^
+TypeError: type 'Dict' is not subscriptable
+
+  warnings.warn(
+
+2025-08-20 11:20:34,823:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 11:21:29,350:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 11:22:20,105:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [11:22:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+2025-08-20 11:29:32,153:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 11:30:24,969:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [11:30:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+2025-08-20 11:31:51,292:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 11:32:33,318:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [11:32:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+2025-08-20 11:35:11,474:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 11:38:13,216:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py:450: UserWarning: An error occurred while importing the 'patient_finder.pipelines.auto_classical_pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\kedro\framework\project\__init__.py", line 442, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\pipeline.py", line 7, in <module>
+    from .nodes import train_pycaret_models
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\patient-finder\src\patient_finder\pipelines\auto_classical_pipeline\nodes.py", line 4, in <module>
+    from pycaret.classification import (
+  File "C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\pycaret\__init__.py", line 22, in <module>
+    raise RuntimeError(
+RuntimeError: ('Pycaret only supports python 3.9, 3.10, 3.11. Your actual Python version: ', sys.version_info(major=3, minor=12, micro=10, releaselevel='final', serial=0), 'Please DOWNGRADE your Python version.')
+
+  warnings.warn(
+
+2025-08-20 11:38:28,833:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-08-20 11:38:29,493:WARNING:C:\Users\SatyamKumar\OneDrive - Chryselys Services Private Limited\Desktop\Patient FInder ACCELERATOR\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [11:38:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+

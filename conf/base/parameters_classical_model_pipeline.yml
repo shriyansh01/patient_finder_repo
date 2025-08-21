@@ -1,0 +1,25 @@
+# This is a boilerplate parameters config generated for pipeline 'classical_model_pipeline'
+# using Kedro 1.0.0.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/1.0.0/configuration/parameters.html
+
+
+
+classical_training:
+  test_size: 0.2
+  random_state: 42
+  models:
+    logistic_regression:
+      max_iter: 1000
+    decision_tree:
+      # default settings, can add more if needed
+      pass: null
+    random_forest:
+      n_estimators: 200
+    lightgbm:
+      # default settings, can add more if needed
+      pass: null
+    xgboost:
+      use_label_encoder: false
+      eval_metric: "logloss"
