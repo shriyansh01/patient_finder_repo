@@ -84,3 +84,9 @@ code_variance_table:
 business_report_json:
   type: json.JSONDataset
   filepath: data/08_reporting/business_report.json
+
+
+
+eda_result_json:
+  type: json.JSONDataset
+  filepath: data/08_reporting/eda_result.json

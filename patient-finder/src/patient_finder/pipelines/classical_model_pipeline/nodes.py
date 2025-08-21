@@ -10,6 +10,12 @@ from sklearn.ensemble import RandomForestClassifier
 import lightgbm as lgb
 import xgboost as xgb
 
+import mlflow
+import mlflow.sklearn
+import mlflow.lightgbm
+import mlflow.xgboost
+import json
+
 
 def train_classical_models(
     features: pd.DataFrame,
@@ -17,13 +23,7 @@ def train_classical_models(
 ) -> Tuple[Dict[str, object], pd.DataFrame, Dict[str, Dict[str, float]]]:
     """
     Train multiple classical ML models for binary classification with params from YAML.
-    
-    Args:
-        features (pd.DataFrame): Input dataset with 'target' and 'patient_id'.
-        params (dict): Parameters from YAML (test_size, random_state, model hyperparameters).
-    
-    Returns:
-        Tuple: (trained_models, predictions, metrics)
+    Logs metrics and models to MLflow.
     """
     test_size = params.get("test_size", 0.2)
     random_state = params.get("random_state", 42)
@@ -62,20 +62,46 @@ def train_classical_models(
     metrics = {}
     preds = {"y_true": y_test.reset_index(drop=True)}
 
-    for name, model in models.items():
-        model.fit(X_train, y_train)
-        y_pred = model.predict(X_test)
-        y_prob = model.predict_proba(X_test)[:, 1] if hasattr(model, "predict_proba") else y_pred
+    # Log the whole experiment under one MLflow run
+    with mlflow.start_run(run_name="train_classical_models", nested=True):
+        mlflow.log_params({"test_size": test_size, "random_state": random_state})
 
-        preds[name] = y_pred
-        metrics[name] = {
-            "accuracy": accuracy_score(y_test, y_pred),
-            "f1": f1_score(y_test, y_pred),
-            "roc_auc": roc_auc_score(y_test, y_prob),
-        }
-    # save the metrics as json files inside patient-finder\data\02_intermediate
-    import json
+        for name, model in models.items():
+            with mlflow.start_run(run_name=name, nested=True):
+                # log model-specific params if available
+                mlflow.log_params(model.get_params())
+
+                # train model
+                model.fit(X_train, y_train)
+                y_pred = model.predict(X_test)
+                y_prob = (
+                    model.predict_proba(X_test)[:, 1]
+                    if hasattr(model, "predict_proba")
+                    else y_pred
+                )
+
+                preds[name] = y_pred
+                metrics[name] = {
+                    "accuracy": accuracy_score(y_test, y_pred),
+                    "f1": f1_score(y_test, y_pred),
+                    "roc_auc": roc_auc_score(y_test, y_prob),
+                }
+
+                # log metrics
+                mlflow.log_metrics(metrics[name])
+                input_example = X_train.head(3)  # first 3 rows
+
+                # log model artifact
+                if name == "lightgbm":
+                    mlflow.lightgbm.log_model(model, name)
+                elif name == "xgboost":
+                    mlflow.xgboost.log_model(model, name)
+                else:
+                    mlflow.sklearn.log_model(model, name)
+
+    # Save metrics locally as JSON (if you still want them in data/02_intermediate)
     with open("data/02_intermediate/metrics.json", "w") as f:
         json.dump(metrics, f)
+
     predictions = pd.DataFrame(preds)
     return models, predictions, metrics

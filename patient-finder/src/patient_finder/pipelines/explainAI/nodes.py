@@ -4,14 +4,18 @@ generated using Kedro 1.0.0
 """
 import shap
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from typing import Dict, List
 import os
+import mlflow
 
 
 def explain_models(models, features: pd.DataFrame) -> Dict[str, List[str]]:
     """
     Generate SHAP explanations for trained models with multiple plot types.
+    Saves plots locally and logs them as MLflow artifacts.
     
     Args:
         models (dict): Trained models from train_classical_models.
@@ -50,6 +54,7 @@ def explain_models(models, features: pd.DataFrame) -> Dict[str, List[str]]:
             plt.savefig(out_path, bbox_inches="tight")
             plt.close()
             plot_paths.append(out_path)
+            mlflow.log_artifact(out_path, artifact_path=f"shap_plots/{name}")
 
             # --- Summary plot (bar) ---
             plt.figure()
@@ -60,6 +65,7 @@ def explain_models(models, features: pd.DataFrame) -> Dict[str, List[str]]:
             plt.savefig(out_path, bbox_inches="tight")
             plt.close()
             plot_paths.append(out_path)
+            mlflow.log_artifact(out_path, artifact_path=f"shap_plots/{name}")
 
             # --- Dependence plot (top feature) ---
             top_feature = data.columns[abs(shap_values.values).mean(0).argmax()]
@@ -71,18 +77,21 @@ def explain_models(models, features: pd.DataFrame) -> Dict[str, List[str]]:
             plt.savefig(out_path, bbox_inches="tight")
             plt.close()
             plot_paths.append(out_path)
+            mlflow.log_artifact(out_path, artifact_path=f"shap_plots/{name}")
 
             # --- Force plot (single prediction example) ---
             force_out_path = f"data/08_reporting/shap_plots/shap_force_{name}.html"
             force_inter_path = f"data/02_intermediate/shap_plots/shap_force_{name}.html"
-            # just pick first instance for demo
-            force_plot = shap.plots.force(explainer.expected_value, 
-                                          shap_values.values[0,:], 
-                                          data.iloc[0,:], 
-                                          matplotlib=False)
+            force_plot = shap.plots.force(
+                explainer.expected_value,
+                shap_values.values[0, :],
+                data.iloc[0, :],
+                matplotlib=False
+            )
             shap.save_html(force_inter_path, force_plot)
             shap.save_html(force_out_path, force_plot)
             plot_paths.append(force_out_path)
+            mlflow.log_artifact(force_out_path, artifact_path=f"shap_plots/{name}")
 
             explanations[name] = plot_paths
 
